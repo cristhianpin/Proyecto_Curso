@@ -1,8 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Header } from './Header/header/header';
+import { Menu } from './Menu/menu/menu';
+import { Footer } from './Footer/footer';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [Header, Menu, Footer],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',

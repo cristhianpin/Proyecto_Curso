@@ -1,0 +1,24 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.footer .container,
+.footer .row,
+.footer .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
